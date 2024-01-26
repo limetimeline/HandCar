@@ -144,7 +144,7 @@ with mp_hands.Hands(
                 text = "x" #보
         elif thumb_finger_state == 1 and index_finger_state == 1 and middle_finger_state == 0 and ring_finger_state == 0 and pinky_finger_state == 0:
                 text = "s" #가위
-        elif   index_finger_state == 0 and middle_finger_state == 0 and ring_finger_state == 0 and pinky_finger_state == 0:
+        elif index_finger_state == 0 and middle_finger_state == 0 and ring_finger_state == 0 and pinky_finger_state == 0:
                 text = "w" #주먹
 
         w, h = font.getsize(text)
